@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #5da6d6;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Reduced gap between cards */
+    width: 100%;
+    max-width: 900px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Card Styling */
+.profile-card {
+    text-align: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #6c63ff;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+    font-weight: 600;
+    font-family: 'Georgia', serif;
+}
+
+/* Contact and Other Section Styling */
+h2 {
+    font-size: 24px;
+    color: #6c63ff;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding-left: 20px;
+    position: relative;
+}
+
+ul li:before {
+    content: "\2022";
+    color: #6c63ff;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+}
+
+/* Link Styling */
+a {
+    color: #6c63ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #333;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #6c63ff;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #333;
+}
