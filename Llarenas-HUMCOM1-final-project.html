@@ -1,54 +1,155 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Jeinard Llarenas - Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="resume-container">
-        <div class="card profile-card">
-            <img src="bernett.jpg" alt="Jeinard Llarenas" class="profile-image">
-            <h1>Jeinard Bernett A. Llarenas</h1>
+  <nav class="navbar navbar-expand-sm bg-Peru">
+    <div class="container-fluid">
+      <div class="row w-100 text-center">
+        <div class="col-12">
+          <img src="bernett.jpg" alt="Jeinard Llarenas" class="profile-image">
+          <h1 class="display-1">Hey There, I'm Jeinard</h1>
+          <p class="lead">A 1st yr Programmer</p>
+          <div class="container mt-3">
+            <div class="d-flex justify-content-center">
+              <a href="#about" class="btn btn-dark mx-2">About Me</a>
+              <a href="#education" class="btn btn-dark mx-2">My Education</a>
+              <a href="#general-portfolio" class="btn btn-dark mx-2">Portfolio</a>
+              <a href="#reflection" class="btn btn-dark mx-2">Reflection</a>
+              <a href="#contact" class="btn btn-dark mx-2">Contacts</a>
+            </div>
+          </div>
         </div>
-        
-        <div class="card contact-card">
-            <h2>Contact Information</h2>
-            <p>Email: <a href="mailto:20250109@s.ubaguio.edu">20250109@s.ubaguio.edu</a></p>
-            <p>Phone: +63 9083454291</p>
-            <p>Location: Baguio City, Philippines</p>
-            <p>GitHub: <a href="https://github.com/jjeeiinnaarrdd" target="_blank">github.com/jjeeiinnaarrdd</a></p>
-        </div>
-
-        <div class="card summary-card">
-            <h2>Professional Summary</h2>
-            <p>I graduated from senior high school with a focus on ICT and programming, and I am now in my first year of college pursuing a Bachelor's degree in Computer Science (BSCS). I am passionate about technology, problem-solving, and developing solutions that can have a positive impact on communities. I aim to use my skills to contribute to projects that improve infrastructure and bring modern innovations to local areas.</p>
-        </div>
-
-        <div class="card education-card">
-            <h2>Education</h2>
-            <p><strong>Bachelor of Science in Computer Science</strong></p>
-            <p>University of Baguio</p>
-        </div>
-
-        <div class="card skills-card">
-            <h2>Skills</h2>
-            <ul>
-                <li>Basic programming (Still Learning)</li>
-                <li>Teamwork</li>
-                <li>Communication Skills</li>
-                <li>Problem Solving</li>
-            </ul>
-        </div>
-
-        <div class="card languages-card">
-            <h2>Languages</h2>
-            <ul>
-                <li>Tagalog (Native)</li>
-                <li>English (Fluent)</li>
-            </ul>
-        </div>
+      </div>
     </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6 p-5 my-5 bg-white text-dark" id="about">
+        <h2>About Me</h2>
+        <p>I graduated from senior high school with a focus on ICT and programming, and I am now in my first year of college pursuing a Bachelor's degree in Computer Science (BSCS). I am passionate about technology, problem-solving, and developing solutions that can have a positive impact on communities. I aim to use my skills to contribute to projects that improve infrastructure and bring modern innovations to local areas.</p>
+      </div>
+
+      <div class="col-md-6 p-5 my-5 bg-white text-dark">
+        <h2>Skills</h2>
+        <ul>
+            <li>Basic programming (Still Learning)</li>
+            <li>Teamwork</li>
+            <li>Communication Skills</li>
+            <li>Problem Solving</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-4 p-5 my-5 bg-white text-dark" id="education">
+      <h2>Education</h2>
+      <p>This is the schools that I attended:</p>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Baguio College of Technology</h5>
+          <p class="card-text">2023 - 2024</p>
+          <p>I studied here for my Senior High School education.</p>
+        </div>
+      </div>
+
+      <div class="card mt-3">
+        <div class="card-body">
+          <h5 class="card-title">University of Baguio</h5>
+          <p class="card-text">2025 - 2026</p>
+          <p>Currently enrolled as a 1st Year BSCS student.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="portfolio-section py-5" id="general-portfolio">
+        <div class="container">
+          <h2 class="text-center mb-4">General Portfolio</h2>
+      
+          <div class="portfolio-list">
+
+            <div class="portfolio-item mb-4">
+              <h4>Activity 1</h4>
+              <img src="images/activity1.jpg" alt="Activity 1" class="portfolio-img">
+            </div>
+      
+            <div class="portfolio-item mb-4">
+              <h4>Activity 2</h4>
+              <img src="images/activity2.jpg" alt="Activity 2" class="portfolio-img">
+            </div>
+            
+            <div class="portfolio-item mb-4">
+              <h4>Activity 3</h4>
+              <img src="images/activity3.jpg" alt="Activity 3" class="portfolio-img">
+            </div>
+            
+            <div class="portfolio-item mb-4">
+                <h4>Activity 4</h4>
+                <img src="images/activity3.jpg" alt="Activity 4" class="portfolio-img">
+              </div>
+
+              <div class="portfolio-item mb-4">
+                <h4>Activity 5</h4>
+                <img src="images/activity3.jpg" alt="Activity 5" class="portfolio-img">
+              </div>
+
+              <div class="portfolio-item mb-4">
+                <h4>Activity 6</h4>
+                <img src="images/activity3.jpg" alt="Activity 6" class="portfolio-img">
+              </div>
+
+              <div class="portfolio-item mb-4">
+                <h4>Activity 7</h4>
+                <img src="images/activity3.jpg" alt="Activity 7" class="portfolio-img">
+              </div>
+
+              <div class="portfolio-item mb-4">
+                <h4>Activity 8</h4>
+                <img src="images/activity3.jpg" alt="Activity 8" class="portfolio-img">
+              </div>
+      
+          </div>
+        </div>
+      </section>
+      
+
+    <div class="section-box" id="reflection">
+        <h2 class="section-title">Reflection</h2>
+      
+        <p>
+            Throughout the HUMCOM course, I gained a foundational understanding of how HTML and CSS work together to create visually clear and structured web pages. Learning how to change text colors, set background colors, and apply basic CSS styles helped me appreciate how even simple design decisions can greatly affect readability and user experience.
+        </p>
+      
+        <p>
+            Working with different activities such as experimenting with color properties, styling elements, and applying CSS rules improved my confidence in building clean and organized code. Using the cheatsheet provided by my professor made it easier to remember important tags and CSS properties, allowing me to apply them more efficiently in my exercises.
+        </p>
+      
+        <p>
+            Overall, HUMCOM strengthened my skills in basic web development and enhanced my ability to communicate ideas through well-designed HTML and CSS. These foundational skills will be valuable as I continue my journey in the field of Information Technology.
+        </p>
+      </div>
+
+
+      
+
+    <div class="mt-4 p-5 my-5 bg-white text-dark" id="contact">
+      <h2>My Contacts</h2>
+      <p>Email: <a href="mailto:20250109@s.ubaguio.edu">20250109@s.ubaguio.edu</a></p>
+      <p>Facebook: <a href="https://www.facebook.com/jjeeiinnaarrdd?mibextid=ZbWKwL" target="_blank">Jeinard Llarenas</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/jjeeiinnaarrdd/" target="_blank">jjeeiinnaarrdd</a></p>
+      <p>Contact Number: +63-908-345-4291</p>
+    </div>
+  </div>
+
+  <footer class="bg-Peru text-white text-center py-3 mt-5">
+    © Jeinard Llarenas 2025
+  </footer>
 </body>
 </html>
