@@ -1,0 +1,122 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #2d6a4f;
+    margin-top: 20px;
+  }
+  
+  h2, h3, h4 {
+    color: #388e3c;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  .recipe-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+  
+  .ingredients-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .ingredients-section ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px;
+  }
+  
+  .ingredients-section li {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    accent-color: #43a047;
+  }
+  
+  input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: #888;
+  }
+
+  .steps-section {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+  }
+  
+  .steps-section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .steps-section ul {
+    list-style-type: decimal;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .steps-section li {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .steps-section p {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .recipe-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ingredients-section, .steps-section {
+      text-align: center;
+    }
+  
+    .steps-section img {
+      max-width: 100%;
+    }
+  }
+  
